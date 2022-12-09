@@ -3,11 +3,11 @@
 
 name: Demo githubactions
 
-# on: [pull_request]
-on:
-  push:
-    branches:
-      - git-hubactions-demo
+on: [pull_request]
+# on:
+#   push:
+#     branches:
+#       - git-hubactions-demo
 
 jobs:
   check:
