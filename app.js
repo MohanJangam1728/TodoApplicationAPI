@@ -34,7 +34,8 @@ const checkDateValidity = async (request, response, next) => {
   } catch (e) {
     console.log(`${e.message}`);
     console.log('new change1');
-    console.log('new change2')
+    console.log('new change2');
+    console.log('new change3');
     response.status(400);
     response.send("Invalid Due Date");
   }
